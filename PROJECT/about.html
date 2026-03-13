@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>TASK MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+   
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <img  src="">
+                <span>TASK MANAGEMENT SYSTEM</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="mainpage.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="login.html">Login</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="taskmanager.html">Add Task</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#"></a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                
+                <a href="">Services</a>
+                <a href="">About</a>
+                <a href="">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="main.png" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey,This is <span>TASK MANAGER</span></h1>
+                
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Welcome to TASK MANAGER, where productivity meets simplicity. We are dedicated to helping individuals and teams achieve their goals through intuitive and efficient task management tools.
+
+                        Our mission is to transform how you organize, track, and execute your daily tasks and long-term projects. By combining cutting-edge technology with user-friendly design, we provide a platform that adapts to your workflow, whether you're managing personal to-dos, team projects, or large-scale initiatives.
+                        
+                        What Sets Us Apart
+                        Ease of Use: We prioritize simplicity, ensuring our system is easy to navigate for users of all skill levels.
+                        Customizable Workflows: Tailor task categories, priorities, and deadlines to suit your unique needs.
+                        Collaboration: Seamlessly work with your team, assign tasks, share updates, and stay aligned on goals.
+                        Integration-Friendly: Connect with your favorite tools and apps to streamline your work processes.
+                        Let us empower you to focus on what truly matters, with a platform designed to simplify the complex and enhance your productivity every step of the way.
+                        
+                        Join the thousands of users who trust us to keep them on track and moving forward. Your success is our priority.
+                        
+                        
+                        
+                        
+                        
+                        
+                        Is this conversation helpful so far?
+                        
+                        
+                        
+                        
+                        </p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="#" ><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+</body>
+</html>
