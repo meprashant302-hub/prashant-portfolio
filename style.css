@@ -18,12 +18,12 @@ body {
   gap: 40px;
   padding-top: 40px;
   margin: auto;
-  
+  align-items: start;
   background-color: #2e2e2e;
 }
 
 .sidebar {
-  height: 90vh;
+  
   background-color: #2e2e2e;
   border: 1px solid #3a3a3a;
   border-radius: 16px;
@@ -55,7 +55,9 @@ body {
   margin: 20px auto;
   display: block;
   border-radius: 50%;
-  border: 1px solid #3a3a3a;
+  border: 2px solid #3a3a3a;
+  object-fit: cover;
+  object-position: center;
 }
 
 .profile h2 {
@@ -281,9 +283,9 @@ nav a{
 }
 
 .project{
-  
+  border-color: #1e1e1e;
   border-radius: 12px;
-  border: 1px solid #FFBF00;
+  border: 1px solid #3a3a3a;
   overflow: hidden;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
@@ -336,12 +338,5 @@ nav a{
   
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 
    
-
-
-
