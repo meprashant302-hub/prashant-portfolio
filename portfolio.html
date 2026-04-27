@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prashant Mishra — Frontend Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Unbounded:wght@300;700;900&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- theme toggle -->
+  <button class="theme-btn" id="themeBtn" aria-label="toggle theme">
+    <span id="themeIcon">☀</span>
+  </button>
+
+  <!-- noise overlay -->
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="hero-top-row">
+      <span class="badge">available for internships ✓</span>
+      <span class="badge mono">Prayagraj, UP 🇮🇳</span>
+    </div>
+
+    <div class="hero-main">
+      <div class="hero-name-area">
+        <p class="hey-text">hey, i'm</p>
+        <h1>
+          <span class="n1">Prashant</span>
+          <span class="n2">Mishra.</span>
+        </h1>
+        <p class="sub-role">frontend dev &amp; cs student</p>
+      </div>
+
+      
+
+      <div class="photo-slot">
+        <div class="photo-empty">
+          <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+          </svg>
+          <small><img src="prashant mishra pic.jpeg" alt="Prashant Mishra" class="hero-photo" /></small>
+        </div>
+        <span class="tape tape-1"></span>
+        <span class="tape tape-2"></span>
+        <span class="tape tape-3"></span>
+        <span class="tape tape-4"></span>
+      </div>
+    </div>
+
+    <p class="hero-intro">
+      3+ years writing code. started with html &amp; css, got deep into js, react, dsa.
+      now in 6th sem @ iert prayagraj while building stuff on the side.
+      currently poking at machine learning too.
+    </p>
+
+    <div class="hero-nav">
+      <a href="#about" class="hn">about</a>
+      <a href="#skills" class="hn">skills</a>
+      <a href="#edu" class="hn">education</a>
+      <a href="#work" class="hn">work</a>
+      <a href="#contact" class="hn">contact</a>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat">
+        <b class="sn" data-target="3">0</b><span class="sp">+</span>
+        <small>yrs coding</small>
+      </div>
+      <div class="stat-div">—</div>
+      <div class="stat">
+        <b class="sn" data-target="8.09" data-float="true">0</b>
+        <small>cgpa</small>
+      </div>
+      <div class="stat-div">—</div>
+      <div class="stat">
+        <b class="sn" data-target="2">0</b><span class="sp">+</span>
+        <small>projects</small>
+      </div>
+      <div class="stat-div">—</div>
+      <div class="stat">
+        <b>∞</b>
+        <small>to learn</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MARQUEE ═══ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-inner">
+      <span>HTML</span><span class="mx">×</span>
+      <span>CSS</span><span class="mx">×</span>
+      <span>JavaScript</span><span class="mx">×</span>
+      <span>React</span><span class="mx">×</span>
+      <span>Tailwind</span><span class="mx">×</span>
+      <span>Git</span><span class="mx">×</span>
+      <span>DSA</span><span class="mx">×</span>
+      <span>Python</span><span class="mx">×</span>
+      <span>ML</span><span class="mx">×</span>
+      <span>HTML</span><span class="mx">×</span>
+      <span>CSS</span><span class="mx">×</span>
+      <span>JavaScript</span><span class="mx">×</span>
+      <span>React</span><span class="mx">×</span>
+      <span>Tailwind</span><span class="mx">×</span>
+      <span>Git</span><span class="mx">×</span>
+      <span>DSA</span><span class="mx">×</span>
+      <span>Python</span><span class="mx">×</span>
+      <span>ML</span><span class="mx">×</span>
+    </div>
+  </div>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="sec" id="about">
+    <span class="sec-tag">// 01 — about</span>
+    <div class="about-wrap">
+      <div class="about-l">
+        <h2 class="sh">a little<br/><em>about me</em></h2>
+      </div>
+      <div class="about-r">
+        <p class="ab big-ab">
+          i started coding around 2022 — just html &amp; css at first. thought making a webpage appear on screen was honestly insane. then javascript, then react. 3 years in and i still get that feeling sometimes.
+        </p>
+        <p class="ab">
+          studying cs at iert prayagraj. the coursework — algorithms, dbms, computer networks, os — taught me to actually think about problems instead of just googling solutions. that stuff changes how you write code.
+        </p>
+        <p class="ab">
+          i've been picking up machine learning on the side. python, sklearn, basic models. the intersection of ml and web is where i want to go. still early but excited about it.
+        </p>
+        <span class="scrawl">← currently: 6th sem, building things, figuring out next steps</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section class="sec" id="skills">
+    <span class="sec-tag">// 02 — skills</span>
+    <h2 class="sh">what i<br/><em>use</em></h2>
+
+    <div class="skills-wrap">
+
+      <div class="sk reveal-sk">
+        <div class="sk-left">
+          <img src="https://simpleicons.org/icons/html5.svg" class="sk-ico" alt="HTML5"/>
+          <span class="sk-nm">HTML5</span>
+        </div>
+        <div class="sk-right">
+          <span class="sk-yr">3+ yrs</span>
+          <div class="dots">
+            <span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sk reveal-sk">
+        <div class="sk-left">
+          <img src="https://www.svgrepo.com/show/391812/css.svg" class="sk-ico" alt="CSS3"/>
+          <span class="sk-nm">CSS3</span>
+        </div>
+        <div class="sk-right">
+          <span class="sk-yr">3+ yrs</span>
+          <div class="dots">
+            <span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sk reveal-sk">
+        <div class="sk-left">
+          <img src="https://simpleicons.org/icons/javascript.svg" class="sk-ico" alt="JS"/>
+          <span class="sk-nm">JavaScript</span>
+        </div>
+        <div class="sk-right">
+          <span class="sk-yr">2+ yrs</span>
+          <div class="dots">
+            <span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d half"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sk reveal-sk">
+        <div class="sk-left">
+          <img src="https://simpleicons.org/icons/react.svg" class="sk-ico" alt="React"/>
+          <span class="sk-nm">React</span>
+        </div>
+        <div class="sk-right">
+          <span class="sk-yr">1+ yr</span>
+          <div class="dots">
+            <span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sk reveal-sk">
+        <div class="sk-left">
+          <img src="https://simpleicons.org/icons/git.svg" class="sk-ico" alt="Git"/>
+          <span class="sk-nm">Git & GitHub</span>
+        </div>
+        <div class="sk-right">
+          <span class="sk-yr">2+ yrs</span>
+          <div class="dots">
+            <span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d half"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sk reveal-sk">
+        <div class="sk-left">
+          <img src="https://simpleicons.org/icons/python.svg" class="sk-ico" alt="ML"/>
+          <span class="sk-nm">ML / Python</span>
+        </div>
+        <div class="sk-right">
+          <span class="sk-yr">~1 yr</span>
+          <div class="dots">
+            <span class="d full"></span><span class="d full"></span><span class="d half"></span><span class="d"></span><span class="d"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sk reveal-sk">
+        <div class="sk-left">
+          <img src="https://simpleicons.org/icons/thealgorithms.svg" class="sk-ico" alt="DSA"/>
+          <span class="sk-nm">DSA</span>
+        </div>
+        <div class="sk-right">
+          <span class="sk-yr">2+ yrs</span>
+          <div class="dots">
+            <span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d full"></span><span class="d"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="dots-note">// the dots are just how i'd honestly rate myself. not a %.</p>
+  </section>
+
+  <!-- ═══ EDUCATION ═══ -->
+  <section class="sec" id="edu">
+    <span class="sec-tag">// 03 — education</span>
+    <h2 class="sh">where i<br/><em>studied</em></h2>
+
+    <div class="edu-wrap">
+      <div class="edu-item reveal">
+        <span class="e-yr">2020–21</span>
+        <div class="e-line"><span class="e-dot"></span><span class="e-vl"></span></div>
+        <div class="e-body">
+          <h3>High School</h3>
+          <p>Saraswati Vidya Mandir Sr. Sec. School, Sultanpur</p>
+        </div>
+      </div>
+      <div class="edu-item reveal">
+        <span class="e-yr">2022–23</span>
+        <div class="e-line"><span class="e-dot"></span><span class="e-vl"></span></div>
+        <div class="e-body">
+          <h3>Intermediate</h3>
+          <p>Saraswati Vidya Mandir Sr. Sec. School, Sultanpur</p>
+        </div>
+      </div>
+      <div class="edu-item reveal now">
+        <span class="e-yr">2023–27</span>
+        <div class="e-line"><span class="e-dot blink-dot"></span></div>
+        <div class="e-body">
+          <h3>B.Tech — Computer Science <span class="now-tag">now</span></h3>
+          <p>Institute of Engineering &amp; Rural Technology, Prayagraj</p>
+          <p class="e-extra">CGPA 8.09 &nbsp;·&nbsp; 6th Sem &nbsp;·&nbsp; Algo · DBMS · CN · OS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ WORK ═══ -->
+  <section class="sec" id="work">
+    <span class="sec-tag">// 04 — work</span>
+    <h2 class="sh">things i<br/><em>built</em></h2>
+
+    <div class="work-wrap">
+
+      <div class="proj reveal">
+        <div class="proj-num">01</div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <h3 class="proj-title">Inventory Management System</h3>
+            <div class="proj-stack">
+              <span>React</span><span>Tailwind</span>
+            </div>
+          </div>
+          <p class="proj-desc">
+            built this to track inventory and stock in real time. this is where react state management actually clicked for me. and tailwind — hated it at first, now can't go back.
+          </p>
+          <a href="#" class="proj-link">view project ↗</a>
+        </div>
+      </div>
+
+      <div class="proj reveal">
+        <div class="proj-num">02</div>
+        <div class="proj-body">
+          <div class="proj-head">
+            <h3 class="proj-title">Portfolio Website</h3>
+            <div class="proj-stack">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+          <p class="proj-desc">
+            you're looking at it right now. this is like the 3rd version. building your own portfolio is oddly hard — you overthink every little thing. still good practice for layout and css.
+          </p>
+          <a href="https://github.com/meprashant302-hub" class="proj-link" target="_blank">source ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="sec" id="contact">
+    <span class="sec-tag">// 05 — contact</span>
+    <div class="contact-wrap">
+      <h2 class="sh contact-h">let's<br/><em>talk.</em></h2>
+      <div class="contact-side">
+        <p class="c-note">open to internships, collabs, or just a conversation about something cool. reach out.</p>
+        <div class="c-links">
+          <a href="mailto:prashantmishr302@gmail.com" class="cl">
+            <span class="cl-k">email</span>
+            <span class="cl-v">prashantmishr302@gmail.com ↗</span>
+          </a>
+          <a href="tel:+919555858869" class="cl">
+            <span class="cl-k">phone</span>
+            <span class="cl-v">+91 95558 58869 ↗</span>
+          </a>
+          <a href="https://www.linkedin.com/in/prashant-mishra-16a46b403/" target="_blank" class="cl">
+            <span class="cl-k">linkedin</span>
+            <span class="cl-v">prashant-mishra ↗</span>
+          </a>
+          <a href="https://github.com/meprashant302-hub" target="_blank" class="cl">
+            <span class="cl-k">github</span>
+            <span class="cl-v">meprashant302-hub ↗</span>
+          </a>
+          <a href="https://leetcode.com/u/prashantmishraaa/" target="_blank" class="cl">
+            <span class="cl-k">leetcode</span>
+            <span class="cl-v">prashantmishraaa ↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="foot">
+    <span>Prashant Mishra</span>
+    <span class="foot-mid">built this myself. no template. no bs.</span>
+    <span class="mono">© 2025</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
